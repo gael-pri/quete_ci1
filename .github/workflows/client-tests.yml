@@ -11,3 +11,4 @@ jobs:
         uses: actions/checkout@v2
       - name: Goto client and run tests
         run: cd client && npm i && npm test
+        
